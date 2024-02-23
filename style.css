@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color:#5c6784 ; */
+    background-color: #9FB4C7;
+    text-align: center;
+}
+h1{
+    font-family: "Kode Mono", monospace;
+    /* color: #534F7F; */
+    color: #073b4c;
+    margin-top: 5px;
+    font-size: 8vmin;
+    font-weight: 900;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    font-size: 8vmin;
+    color: #870D3A;
+    background-color: #e9ecef;
+    /* color: #28587B; */
+    /* color: #42051F; */
+}
+#reset{
+    padding: 1rem;
+    font-size: 1.25rem;
+    /* background-color: #121312; */
+    background-color: #124559;
+    color: #ffff;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+}
+#new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    /* background-color: #121312; */
+    background-color: #124559;
+    color: #ffff;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#msg{
+    color: #0c776b;
+    font-size: 8vmin;
+    font-weight: 900;
+
+}
+.msg-box{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+
+}
+.hide{
+    display: none;
+}
